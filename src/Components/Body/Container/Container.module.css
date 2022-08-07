@@ -1,0 +1,10 @@
+.Container {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}

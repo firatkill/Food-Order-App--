@@ -1,0 +1,24 @@
+.Container {
+  width: 50vw;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+}
+
+.CardHeader {
+  background-color: #343232;
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  padding: 1rem;
+}
+.CardBody {
+  padding: 1rem;
+  text-align: center;
+  background-color: #565656;
+  color: white;
+}
+.CardBody__Text {
+  opacity: 0.8;
+}

@@ -1,0 +1,17 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url(./Katman\ 0.jpg);
+  background-size: cover cover;
+  background-repeat: no-repeat;
+  padding-bottom: 2rem;
+  overflow: visible;
+  background-color: #b9b8b8;
+  z-index: 2;
+}
+@media only screen and (min-width: 1000px) {
+  body {
+    background-image: url(./meals.jpg);
+    background-size: contain;
+  }
+}

@@ -1,0 +1,21 @@
+.NavbarContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(103, 31, 46);
+  color: white;
+  padding: 1rem 1.5rem;
+  margin: 0;
+  position: sticky;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 2;
+}
+.Brand {
+  font-size: 2rem;
+  font-weight: bolder;
+  font-style: italic;
+  letter-spacing: 2px;
+  cursor: pointer;
+}

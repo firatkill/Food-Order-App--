@@ -1,0 +1,89 @@
+.modal {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow: auto;
+
+  display: flex;
+  align-items: unset;
+  justify-content: center;
+  z-index: 2;
+  padding-bottom: -15rem;
+}
+.modal_content {
+  border-radius: 20px;
+  position: absolute;
+  margin-top: 5rem;
+  padding-bottom: 2rem;
+  width: 75%;
+  background-color: #fff;
+}
+.modal_content__header,
+.modal_content__footer {
+  padding: 10px;
+}
+.modal_content__header__title {
+  margin: 0;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.modal_content__body {
+  padding: 10px;
+  border-top: 1px solid #eee;
+}
+.modal_content__footer {
+  margin: 0;
+  padding-top: 0;
+  display: flex;
+
+  flex-direction: column;
+}
+.modal_content__footer__total {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.1rem;
+  align-items: center;
+}
+.modal_content__footer__totalAmount {
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+.modal_content__footer__buttons {
+  margin-left: auto;
+}
+/*rgb(103, 31, 46);*/
+.modal_content__footer__buttons button {
+  padding: 0.25rem 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.modal_content__footer__orderButton {
+  background-color: rgb(103, 31, 46);
+  color: white;
+  border: 1.5px solid rgb(103, 31, 46);
+
+  margin-left: 0.5rem;
+}
+.modal_content__footer__closeButton {
+  margin-right: 0.5rem;
+  background-color: transparent;
+  color: rgb(103, 31, 46);
+
+  border: 1.5px solid rgb(103, 31, 46);
+}
+.modal_content__footer__closeButton:hover {
+  background-color: rgb(103, 31, 46);
+  color: white;
+  border: 1.5px solid white;
+  box-shadow: 1px 1px 3px 3px rgba(103, 31, 46, 0.4);
+}
+.modal_content__footer__orderButton:hover {
+  background-color: transparent;
+  color: rgb(103, 31, 46);
+  border: 1.5px solid rgb(103, 31, 46);
+  box-shadow: 1px 1px 3px 3px rgb(103, 31, 46, 0.4);
+}
